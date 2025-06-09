@@ -1,0 +1,83 @@
+.carousel-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.carousel-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.carousel {
+  display: flex;
+  gap: 2rem;
+  transition: transform 0.5s ease-in-out;
+  width: max-content;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+.review-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  min-width: 320px;
+  max-width: 360px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.review-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.name {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: gray;
+  margin: 0;
+}
+
+.comment {
+  font-style: italic;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+
+.stars {
+  margin-top: 6px;
+}
+
+.star {
+  font-size: 1rem;
+  color: lightgray;
+}
+
+.star.filled {
+  color: #facc15;
+}

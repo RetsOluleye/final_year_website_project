@@ -1,0 +1,32 @@
+.popular{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content .p{
+   margin-left: 500px;
+    
+}
+.content{
+    width: 100%;
+    cursor: pointer;
+    
+
+}
+.paragraph{
+    margin-left: 15%;
+}
+.popular{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.top{
+    margin-bottom: 100px;
+}
+.dishes{
+    font-weight: bold;
+    font-size: 300%;
+}
+.review{
+    font-weight: bold;
+    font-size: 300%;
+}

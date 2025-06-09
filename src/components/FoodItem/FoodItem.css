@@ -1,0 +1,84 @@
+.food-item {
+    width: 100%;
+    max-width: 350px; /* Added max-width to limit overall size */
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+    overflow: hidden; /* Added to clip any overflow inside */
+}
+
+.food-item-img-container {
+    position: relative;
+    width: 100%;       /* Make sure container is full width */
+    max-height: 220px; /* Limit height so images don’t blow up vertically */
+    overflow: hidden;  /* Hide any part of the image that goes outside */
+    border-radius: 15px 15px 0 0; /* Match image rounded corners */
+}
+
+.food-item-image {
+    width: 100%;
+    height: 100%;          /* Make image fill container height */
+    object-fit: cover;     /* Crop image nicely without distortion */
+    display: block;
+    border-radius: 15px 15px 0 0;
+}
+
+/* Keep rest as is */
+.food-item-info {
+    padding: 20px;
+}
+
+.food-item-name-rating {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    display: flex; /* You were missing this, needed for justify-content */
+}
+
+.food-item-name-rating p {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.food-item-name-rating img {
+    width: 70px;
+}
+
+.food-item-desc {
+    color: #676767;
+    font-size: 12px;
+}
+
+.food-item-price {
+    color: tomato;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.food-item-img-container .add {
+    width: 35px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.food-item-counter {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.food-item-counter img {
+    width: 30px;
+}
