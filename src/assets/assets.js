@@ -2,14 +2,7 @@ import basket_icon from './basket_icon.png'
 import logo from './logo.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
-import menu_1 from './menu_1.png'
-import menu_2 from './menu_2.png'
-import menu_3 from './menu_3.png'
-import menu_4 from './menu_4.png'
-import menu_5 from './menu_5.png'
-import menu_6 from './menu_6.png'
-import menu_7 from './menu_7.png'
-import menu_8 from './menu_8.png'
+
 
 import jollofrice from './jollofrice.png'
 import whiterice from './whiterice.png'
@@ -61,38 +54,7 @@ import nutrimilk from './nutrimilk.png'
 import Predator from './Predator.png'
 import fearless from './fearless.png'
 import Yoghurt from './Yoghurt.png'
-import food_1 from './food_1.png'
-import food_2 from './food_2.png'
-import food_3 from './food_3.png'
-import food_4 from './food_4.png'
-import food_5 from './food_5.png'
-import food_6 from './food_6.png'
-import food_7 from './food_7.png'
-import food_8 from './food_8.png'
-import food_9 from './food_9.png'
-import food_10 from './food_10.png'
-import food_11 from './food_11.png'
-import food_12 from './food_12.png'
-import food_13 from './food_13.png'
-import food_14 from './food_14.png'
-import food_15 from './food_15.png'
-import food_16 from './food_16.png'
-import food_17 from './food_17.png'
-import food_18 from './food_18.png'
-import food_19 from './food_19.png'
-import food_20 from './food_20.png'
-import food_21 from './food_21.png'
-import food_22 from './food_22.png'
-import food_23 from './food_23.png'
-import food_24 from './food_24.png'
-import food_25 from './food_25.png'
-import food_26 from './food_26.png'
-import food_27 from './food_27.png'
-import food_28 from './food_28.png'
-import food_29 from './food_29.png'
-import food_30 from './food_30.png'
-import food_31 from './food_31.png'
-import food_32 from './food_32.png'
+
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -197,63 +159,63 @@ export const food_list = [
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Rice"
     },  {
-        _id: "4",
+        _id: "5",
         name: "Fried Rice",
         image: friedrice,
         price: 500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Rice"
     }, {
-        _id: "5",
+        _id: "6",
         name: "Eba",
         image: eba,
         price: 200,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Swallow"
     }, {
-        _id: "6",
+        _id: "7",
         name: "Fufu",
         image: fufu,
         price: 200,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Swallow"
     }, {
-        _id: "7",
+        _id: "8",
         name: "Semo",
         image: semoo,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Swallow"
     }, {
-        _id: "8",
+        _id: "9",
         name: "Amala",
         image: amala,
         price: 200,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Swallow"
     }, {
-        _id: "9",
+        _id: "10",
         name: "Egusi",
         image: egusi,
         price: 300,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Soup"
     }, {
-        _id: "10",
+        _id: "11",
         name: "Ewedu",
         image: ewedu,
         price: 200,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Soup"
     }, {
-        _id: "11",
+        _id: "12",
         name: "Afang",
         image: afang,
         price: 300,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Soup"
     }, {
-        _id: "12",
+        _id: "13",
         name: "Banga",
         image: banga,
         price: 300,
@@ -261,7 +223,7 @@ export const food_list = [
         category: "Soup"
     },
      {
-        _id: "12",
+        _id: "14",
         name: "Efo Riro",
         image: eforiro,
         price: 300,
@@ -269,7 +231,7 @@ export const food_list = [
         category: "Soup"
     },
      {
-        _id: "12",
+        _id: "15",
         name: "Ogbono",
         image: ogbono,
         price: 200,
@@ -277,7 +239,7 @@ export const food_list = [
         category: "Soup"
     },
      {
-        _id: "12",
+        _id: "16",
         name: "Okro",
         image: okro,
         price: 200,
@@ -285,7 +247,7 @@ export const food_list = [
         category: "Soup"
     },
      {
-        _id: "12",
+        _id: "17",
         name: "Gbegiri",
         image: gbegiri,
         price: 200,
@@ -293,7 +255,7 @@ export const food_list = [
         category: "Soup"
     },
     {
-        _id: "13",
+        _id: "18",
         name: "S.Bread",
         image: sb,
         price: 1500,
@@ -301,63 +263,63 @@ export const food_list = [
         category: "Bread"
     },
     {
-        _id: "14",
+        _id: "19",
         name: "Slice Bread",
         image: slice,
         price: 1200,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Bread"
     }, {
-        _id: "15",
+        _id: "20",
         name: "Bread & Egg",
         image: bande,
         price: 800,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Bread"
     }, {
-        _id: "16",
+        _id: "21",
         name: "Unsliced Bread",
         image: unslice,
         price: 1000,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Bread"
     }, {
-        _id: "17",
+        _id: "22",
         name: "White Spag",
         image: whitespag,
         price: 500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles & Pasta"
     }, {
-        _id: "18",
+        _id: "23",
         name: "Jollof Spag",
         image: jollofspag,
         price: 600,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles & Pasta"
     }, {
-        _id: "19",
+        _id: "24",
         name: "Macaroni (Special)",
         image: Macaroni,
         price: 1000,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles & Pasta"
     }, {
-        _id: "20",
+        _id: "25",
         name: "Noodles",
         image: noodles,
         price: 500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles & Pasta"
     }, {
-        _id: "21",
+        _id: "26",
         name: "White Beans ",
         image: whitebeans,
         price: 500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Beans"
     }, {
-        _id: "22",
+        _id: "27",
         name: "P.Beans",
         image: porridgebeans,
         price: 600,
@@ -365,7 +327,7 @@ export const food_list = [
         category: "Beans"
     }, 
     {
-        _id: "22",
+        _id: "28",
         name: "Ewa Agoyin",
         image: agoyin,
         price: 600,
@@ -373,21 +335,21 @@ export const food_list = [
         category: "Beans"
     }, 
      {
-        _id: "22",
+        _id: "29",
         name: "Porridge",
         image: Porridge,
         price: 600,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Beans"
     }, {
-        _id: "23",
+        _id: "30",
         name: "Doughnut",
         image: doughnut,
         price: 250,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Snacks"
     }, {
-        _id: "24",
+        _id: "31",
         name: "Egg Roll",
         image: eggroll,
         price: 500,
@@ -395,7 +357,7 @@ export const food_list = [
         category: "Snacks"
     },
     {
-        _id: "25",
+        _id: "32",
         name: "Meat Pie",
         image: meatpie,
         price: 800,
@@ -403,7 +365,7 @@ export const food_list = [
         category: "Snacks"
     },
     {
-        _id: "26",
+        _id: "33",
         name: "Veggie Roll",
         image: veggieroll,
         price: 800,
@@ -411,7 +373,7 @@ export const food_list = [
         category: "Snacks"
     }, 
     {
-        _id: "26",
+        _id: "34",
         name: "Chicken & Chips",
         image: candc,
         price: 3000,
@@ -419,49 +381,49 @@ export const food_list = [
         category: "Snacks"
     }, 
     {
-        _id: "26",
+        _id: "35",
         name: "Suya",
         image: suya,
         price: 1000,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Snacks"
     }, {
-        _id: "27",
+        _id: "36",
         name: "Hot Dog",
         image: hotdog,
         price: 600,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Snacks"
     }, {
-        _id: "28",
+        _id: "37",
         name: "Chicken Pasta",
         image: chickenpasta,
         price: 3500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pasta"
     }, {
-        _id: "29",
+        _id: "38",
         name: "Fanta",
         image: fanta,
         price: 500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Drinks"
     }, {
-        _id: "30",
+        _id: "39",
         name: "Coke",
         image: coke,
         price: 500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Drinks"
     }, {
-        _id: "31",
+        _id: "40",
         name: "Pepsi",
         image: pepsi,
         price: 500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Drinks"
     }, {
-        _id: "32",
+        _id: "41",
         name: "Bottle Water",
         image: water,
         price: 200,
@@ -469,7 +431,7 @@ export const food_list = [
         category: "Drinks"
     },
      {
-        _id: "32",
+        _id: "42",
         name: "Sprite",
         image: sprite,
         price: 500,
@@ -477,7 +439,7 @@ export const food_list = [
         category: "Drinks"
     },
      {
-        _id: "32",
+        _id: "43",
         name: "7up",
         image: up,
         price: 500,
@@ -485,7 +447,7 @@ export const food_list = [
         category: "Drinks"
     },
      {
-        _id: "32",
+        _id: "44",
         name: "5Alive",
         image: alive,
         price: 1200,
@@ -493,7 +455,7 @@ export const food_list = [
         category: "Drinks"
     },
      {
-        _id: "32",
+        _id: "45",
         name: "Chi-Active",
         image: active,
         price: 1200,
@@ -501,7 +463,7 @@ export const food_list = [
         category: "Drinks"
     },
      {
-        _id: "32",
+        _id: "46",
         name: "Freshyo",
         image: freshyo,
         price: 800,
@@ -509,7 +471,7 @@ export const food_list = [
         category: "Drinks"
     },
      {
-        _id: "32",
+        _id: "47",
         name: "Nutri-Milk",
         image: nutrimilk,
         price: 800,
@@ -517,7 +479,7 @@ export const food_list = [
         category: "Drinks"
     },
      {
-        _id: "32",
+        _id: "48",
         name: "Caleb Yoghurt",
         image: Yoghurt,
         price: 600,
@@ -525,7 +487,7 @@ export const food_list = [
         category: "Drinks"
     },
      {
-        _id: "32",
+        _id: "49",
         name: "Predator",
         image: Predator,
         price: 600,
@@ -533,7 +495,7 @@ export const food_list = [
         category: "Drinks"
     },
      {
-        _id: "32",
+        _id: "50",
         name: "Fearless",
         image: fearless,
         price: 600,
